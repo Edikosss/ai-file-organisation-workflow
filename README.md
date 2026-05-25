@@ -1,5 +1,76 @@
-Register-First Case File Workflow Specification
+# Register-First Case File Workflow Specification
 
+A technical workflow specification for organising sensitive case-file materials through file registers, metadata checks, media review, contradiction tracking, restricted-use routing, and final-library gates.
+
+This repository is not a legal-advice tool and does not contain real case evidence. It describes a workflow architecture for safer file organisation and review preparation.
+
+## Purpose
+
+The purpose of this workflow is to reduce confusion when working with sensitive case materials by separating:
+
+- confirmed source documents;
+- source candidates;
+- unverified material;
+- background-only material;
+- media requiring technical review;
+- restricted / do-not-use-yet material;
+- contradiction or mismatch items;
+- professional-review questions.
+
+The workflow is designed around a simple principle:
+
+> Do not treat a file as evidence merely because of its filename, folder name, user description, AI summary, OCR guess, thumbnail, or assumed relevance.
+
+## Core Principles
+
+1. Register-first file verification.
+2. Metadata and source-status checks.
+3. Media files default to technical review.
+4. High-risk or unverified material stays restricted.
+5. Contradictions are preserved, not resolved by AI.
+6. Final evidence status requires a review gate.
+7. Read-only operation is the default.
+8. No file movement or disclosure without exact object-level approval.
+
+## What This Is
+
+This is a technical workflow specification for:
+
+- file register control;
+- evidence-status labelling;
+- metadata review;
+- media review;
+- contradiction tracking;
+- restricted-use routing;
+- dry-run validation;
+- final-library gating.
+
+## What This Is Not
+
+This is not:
+
+- legal advice;
+- a court document;
+- a defence statement;
+- a disclosure pack;
+- a solicitor replacement;
+- a tool for deciding legal issues;
+- a repository containing real evidence.
+
+## Workflow Modules
+
+```text
+01_File_Register
+02_Compliance_Conditions
+03_Core_Evidence
+04_Contradictions
+05_Disclosure_Requests
+06_Media_Technical_Review
+07_Background_Only
+08_Restricted_Do_Not_Use_Yet
+09_File_Binding_Queue
+10_Audit_Hash_Metadata
+11_Professional_Questions_Draft
 ## Version 2 – Updated Workflow
 
 # A technical workflow specification for organising sensitive case-file materials through file registers, metadata checks, media review, contradiction tracking, restricted-use routing, and final-library gates.
