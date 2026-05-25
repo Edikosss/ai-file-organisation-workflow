@@ -2,7 +2,7 @@ Register-First Case File Workflow Specification
 
 ## Version 2 – Updated Workflow
 
-# Case Evidence Workflow Assistant
+# A technical workflow specification for organising sensitive case-file materials through file registers, metadata checks, media review, contradiction tracking, restricted-use routing, and final-library gates.
 
 ## Purpose
 
